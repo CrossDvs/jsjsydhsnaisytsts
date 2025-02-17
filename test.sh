@@ -1,3 +1,3 @@
 #!/bin/bash
 
-adb -s emulator-5554 shell printenv
+adb -s emulator-5554 shell cat /proc/self/maps | grep
